@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+/*note: font-family can also get to fonts.google.com just this sample format*/
+body{
+    background: url("backgroundvenice.jpg") no-repeat ;
+    background-size: cover;
+}
+
+.backgroundtext{
+    background-color:skyblue ;
+
+}
+
+.greenBackground{
+    background: #89FF90;
+    color:yellow;
+}
+#sampleID{
+    color: black;
+}
+.sampleBox{
+    background: white;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border: 5px #89FF90 solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px yellow ;
+    word-spacing: 10px;
+/*note : sample CSS box shadow can be generate from https://cssmatic.com/box-shadow */
+    -webkit-box-shadow: 25px -14px 14px 0px rgba(0,0,0,0.83);
+    -moz-box-shadow: 25px -14px 14px 0px rgba(0,0,0,0.83);
+    box-shadow: 25px -14px 14px 0px rgba(0,0,0,0.83);
+    font-size: 70%;
+    font-family: Arial;
+    font-weight: bold;
+/*note  : can use bold , bolder, light or normal*/ 
+    font-style: italic;
+    text-transform: capitalize;
+/*note : can use lowercase , uppercase , capitalize */  
+    text-decoration:  ;
+/*note : can use overline, underline and line-through */ 
+    text-align: left;
+/*note : can use left, center and right */
+
+}
+
+
